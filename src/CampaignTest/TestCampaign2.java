@@ -21,10 +21,12 @@ public class TestCampaign2  extends BaseClass
 		hp.getMore().click();
 		hp.getCamp().click();
 		CampaignPage cp = new CampaignPage(driver);
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 		cp.getImgaddBtn().click();
 		CreateCampaignPage ccp= new CreateCampaignPage(driver);
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 		ccp.getOrgNameBox().sendKeys(lib.getExcelDataFixSHEET("Sheet1", 1, 0)+lib.genRandomvalue());
 		ccp.getTargetBox().sendKeys("asdadsa");
 		ccp.getSaveProduct().click();

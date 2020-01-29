@@ -51,7 +51,8 @@ public class CreateOrganizationTestNormal extends BaseClass
 		c1.getSave().click();
 		
 		Organization_Info oi = new Organization_Info(driver);
-		Thread.sleep(3000);
+		lib.implicitWait(driver);
+		//Thread.sleep(3000);
 		String actual_name =oi.orgnameText().getText();
 		Assert.assertEquals(actual_name, orgName);
 		System.out.println("Data Inserted");

@@ -70,11 +70,11 @@ public class Create_Organizations
 	Organizations_childWindow ow = new Organizations_childWindow(driver);
 	ow.perforActionChild();
 
-	
-	Thread.sleep(2000);
+	lib.implicitWait(driver);
+//	Thread.sleep(2000);
 	getSave().click();
-	//lib.ImplicitWait();
-	Thread.sleep(3000);	
+	lib.implicitWait(driver);
+	//Thread.sleep(3000);	
 	return new Organization_Info(driver);
 	}
 	

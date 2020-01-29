@@ -32,9 +32,10 @@ public class Genericlib
 		System.setProperty("webdriver.chrome.driver", "../FrameWork_Nick/chromedriver.exe");
 	}
 
-	public void ImplicitWait()
+
+	public void implicitWait(WebDriver driver) 
 	{
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	}
 	public String getExcelData(String expath,String sheet,int row,int col) throws Throwable
 	{

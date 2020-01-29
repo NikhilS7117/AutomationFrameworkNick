@@ -22,7 +22,8 @@ public class CreateContactTest extends BaseClass
 		CreateContactPage ccp = new CreateContactPage(driver);
 	
 		ccp.getLastname().sendKeys(lib.getExcelDataFixSHEET("Sheet1", 4, 0)+lib.genRandomvalue());
-		Thread.sleep(3000);
+		lib.implicitWait(driver);
+		//Thread.sleep(3000);
 		ccp.getMobile().sendKeys(lib.getExcelDataFixSHEET("sheet1",1, 2));
 		ccp.getEmail().sendKeys(lib.getExcelDataFixSHEET("Sheet1", 1, 1));
 

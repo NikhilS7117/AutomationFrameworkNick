@@ -41,10 +41,12 @@ public class CreateChildCamp
 	}
 	public void actonChildCamp() throws InterruptedException
 	{
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 		getChildSearch().sendKeys("santoor");
 		getSearchBtn().click();
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 		getSearchResult().click();
 		
 	}

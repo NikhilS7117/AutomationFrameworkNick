@@ -22,9 +22,11 @@ public class TestContact1 extends BaseClass
 		CreateContactPage ccp = new CreateContactPage(driver);
 		ccp.getLastname().sendKeys(lib.getExcelDataFixSHEET("sheet1",6, 0)+lib.genRandomvalue());
 		ccp.getMobile().sendKeys(lib.getExcelDataFixSHEET("sheet1",6, 2));
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 		ccp.getSaveBtn().click();
-		Thread.sleep(2000);
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);
 	}
 
 

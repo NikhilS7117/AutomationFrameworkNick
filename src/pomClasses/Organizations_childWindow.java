@@ -47,7 +47,8 @@ public class Organizations_childWindow
 		getOrgChildSearch().sendKeys(lib.getExcelDataFixSHEET("Sheet1", 1, 3));
 		getOrgChildbutton().click();
 		getSearchResult().click();
-		Thread.sleep(2000);			
+		lib.implicitWait(driver);
+		//Thread.sleep(2000);			
 		driver.switchTo().alert().accept();
 		lib.switchParent(driver);
 

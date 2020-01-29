@@ -22,8 +22,10 @@ public class TestOrganization1  extends BaseClass
 		op.getAddbutton().click();
 		Create_Organizations co = new Create_Organizations(driver);
 		co.getOrgnamebox().sendKeys(lib.getExcelDataFixSHEET("Sheet1", 1, 1)+lib.genRandomvalue()+lib.genRandomvalue());
-		Thread.sleep(3000);
+		lib.implicitWait(driver);
+		//Thread.sleep(3000);
 		co.getSave().click();
-		Thread.sleep(3000);
+		lib.implicitWait(driver);
+		//Thread.sleep(3000);
 	}
 }

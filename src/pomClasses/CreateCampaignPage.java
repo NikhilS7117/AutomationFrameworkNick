@@ -55,7 +55,8 @@ public class CreateCampaignPage
 		ccp.actonChildCamp();
 		lib.switchParent(driver);
 		getSaveProduct().click();
-		Thread.sleep(3000);
+		lib.implicitWait(driver);
+		//Thread.sleep(3000);
 		return new CreateChildCamp(driver);
 	}
 }
