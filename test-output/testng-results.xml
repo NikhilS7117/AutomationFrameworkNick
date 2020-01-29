@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM" duration-ms="244237" started-at="2020-01-27T14:00:48Z" finished-at="2020-01-27T14:04:52Z">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateCampaignTest.TestStart()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="TestStart" class="CampaignTest.CreateCampaignTest"/>
+        <method signature="CreateContactTest.testStart()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="testStart" class="ContactsTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.TestStart()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="TestStart" class="OrganizationTest.CreateOrganizationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="TestCampaign1.CampaignTest1()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="CampaignTest1" class="CampaignTest.TestCampaign1"/>
+        <method signature="TestContact1.testStart()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="testStart" class="ContactsTest.TestContact1"/>
+        <method signature="TestOrganization1.OrganizationTest1()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="OrganizationTest1" class="OrganizationTest.TestOrganization1"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test-Runner-1" duration-ms="244237" started-at="2020-01-27T14:00:48Z" finished-at="2020-01-27T14:04:52Z">
+      <class name="ContactsTest.CreateContactTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="openBrowser" is-config="true" duration-ms="2521" started-at="2020-01-27T19:33:53Z" finished-at="2020-01-27T19:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="configBM" is-config="true" duration-ms="6575" started-at="2020-01-27T19:33:55Z" finished-at="2020-01-27T19:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="testStart()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="testStart" duration-ms="14963" started-at="2020-01-27T19:34:02Z" finished-at="2020-01-27T19:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="configAM" is-config="true" duration-ms="1369" started-at="2020-01-27T19:34:17Z" finished-at="2020-01-27T19:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:ContactsTest.CreateContactTest@4883b407]" name="configAC" is-config="true" duration-ms="135" started-at="2020-01-27T19:34:18Z" finished-at="2020-01-27T19:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- ContactsTest.CreateContactTest -->
+      <class name="OrganizationTest.TestOrganization2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:OrganizationTest.TestOrganization2@5622fdf]" name="openBrowser" is-config="true" duration-ms="2344" started-at="2020-01-27T19:33:27Z" finished-at="2020-01-27T19:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:OrganizationTest.TestOrganization2@5622fdf]" name="configBM" is-config="true" duration-ms="5068" started-at="2020-01-27T19:33:30Z" finished-at="2020-01-27T19:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="OrganizationTest2()[pri:0, instance:OrganizationTest.TestOrganization2@5622fdf]" name="OrganizationTest2" duration-ms="14719" started-at="2020-01-27T19:33:35Z" finished-at="2020-01-27T19:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganizationTest2 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:OrganizationTest.TestOrganization2@5622fdf]" name="configAM" is-config="true" duration-ms="2884" started-at="2020-01-27T19:33:49Z" finished-at="2020-01-27T19:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:OrganizationTest.TestOrganization2@5622fdf]" name="configAC" is-config="true" duration-ms="134" started-at="2020-01-27T19:33:52Z" finished-at="2020-01-27T19:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- OrganizationTest.TestOrganization2 -->
+      <class name="CampaignTest.TestCampaign2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:CampaignTest.TestCampaign2@6093dd95]" name="openBrowser" is-config="true" duration-ms="2425" started-at="2020-01-27T19:33:01Z" finished-at="2020-01-27T19:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:CampaignTest.TestCampaign2@6093dd95]" name="configBM" is-config="true" duration-ms="7477" started-at="2020-01-27T19:33:03Z" finished-at="2020-01-27T19:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CampaignTest2()[pri:0, instance:CampaignTest.TestCampaign2@6093dd95]" name="CampaignTest2" duration-ms="14791" started-at="2020-01-27T19:33:11Z" finished-at="2020-01-27T19:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignTest2 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:CampaignTest.TestCampaign2@6093dd95]" name="configAM" is-config="true" duration-ms="1598" started-at="2020-01-27T19:33:26Z" finished-at="2020-01-27T19:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:CampaignTest.TestCampaign2@6093dd95]" name="configAC" is-config="true" duration-ms="233" started-at="2020-01-27T19:33:27Z" finished-at="2020-01-27T19:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- CampaignTest.TestCampaign2 -->
+      <class name="CampaignTest.TestCampaign1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="openBrowser" is-config="true" duration-ms="3079" started-at="2020-01-27T19:30:48Z" finished-at="2020-01-27T19:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="configBM" is-config="true" duration-ms="7981" started-at="2020-01-27T19:30:51Z" finished-at="2020-01-27T19:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CampaignTest1()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="CampaignTest1" duration-ms="18014" started-at="2020-01-27T19:30:59Z" finished-at="2020-01-27T19:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignTest1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="configAM" is-config="true" duration-ms="1532" started-at="2020-01-27T19:31:17Z" finished-at="2020-01-27T19:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:CampaignTest.TestCampaign1@6a4f787b]" name="configAC" is-config="true" duration-ms="148" started-at="2020-01-27T19:31:18Z" finished-at="2020-01-27T19:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- CampaignTest.TestCampaign1 -->
+      <class name="OrganizationTest.TestOrganization1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="openBrowser" is-config="true" duration-ms="2253" started-at="2020-01-27T19:31:44Z" finished-at="2020-01-27T19:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="configBM" is-config="true" duration-ms="5080" started-at="2020-01-27T19:31:46Z" finished-at="2020-01-27T19:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="OrganizationTest1()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="OrganizationTest1" duration-ms="15122" started-at="2020-01-27T19:31:52Z" finished-at="2020-01-27T19:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganizationTest1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="configAM" is-config="true" duration-ms="3663" started-at="2020-01-27T19:32:07Z" finished-at="2020-01-27T19:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:OrganizationTest.TestOrganization1@6a41eaa2]" name="configAC" is-config="true" duration-ms="187" started-at="2020-01-27T19:32:10Z" finished-at="2020-01-27T19:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- OrganizationTest.TestOrganization1 -->
+      <class name="OrganizationTest.CreateOrganizationTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="openBrowser" is-config="true" duration-ms="2426" started-at="2020-01-27T19:34:18Z" finished-at="2020-01-27T19:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="configBM" is-config="true" duration-ms="6529" started-at="2020-01-27T19:34:20Z" finished-at="2020-01-27T19:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="TestStart()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="TestStart" duration-ms="22589" started-at="2020-01-27T19:34:27Z" finished-at="2020-01-27T19:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="configAM" is-config="true" duration-ms="2311" started-at="2020-01-27T19:34:50Z" finished-at="2020-01-27T19:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:OrganizationTest.CreateOrganizationTest@7d9d1a19]" name="configAC" is-config="true" duration-ms="125" started-at="2020-01-27T19:34:52Z" finished-at="2020-01-27T19:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- OrganizationTest.CreateOrganizationTest -->
+      <class name="CampaignTest.CreateCampaignTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="openBrowser" is-config="true" duration-ms="2381" started-at="2020-01-27T19:32:32Z" finished-at="2020-01-27T19:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="configBM" is-config="true" duration-ms="6021" started-at="2020-01-27T19:32:34Z" finished-at="2020-01-27T19:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="TestStart()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="TestStart" duration-ms="18947" started-at="2020-01-27T19:32:40Z" finished-at="2020-01-27T19:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="configAM" is-config="true" duration-ms="1662" started-at="2020-01-27T19:32:59Z" finished-at="2020-01-27T19:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:CampaignTest.CreateCampaignTest@6d4b1c02]" name="configAC" is-config="true" duration-ms="123" started-at="2020-01-27T19:33:01Z" finished-at="2020-01-27T19:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- CampaignTest.CreateCampaignTest -->
+      <class name="ContactsTest.TestContact1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="openBrowser" is-config="true" duration-ms="2387" started-at="2020-01-27T19:31:19Z" finished-at="2020-01-27T19:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="configBM" is-config="true" duration-ms="5031" started-at="2020-01-27T19:31:21Z" finished-at="2020-01-27T19:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="testStart()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="testStart" duration-ms="16548" started-at="2020-01-27T19:31:26Z" finished-at="2020-01-27T19:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="configAM" is-config="true" duration-ms="1482" started-at="2020-01-27T19:31:43Z" finished-at="2020-01-27T19:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:ContactsTest.TestContact1@685cb137]" name="configAC" is-config="true" duration-ms="141" started-at="2020-01-27T19:31:44Z" finished-at="2020-01-27T19:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- ContactsTest.TestContact1 -->
+      <class name="ContactsTest.TestContact2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:ContactsTest.TestContact2@7cd62f43]" name="openBrowser" is-config="true" duration-ms="2364" started-at="2020-01-27T19:32:10Z" finished-at="2020-01-27T19:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:ContactsTest.TestContact2@7cd62f43]" name="configBM" is-config="true" duration-ms="5022" started-at="2020-01-27T19:32:13Z" finished-at="2020-01-27T19:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="testStart()[pri:0, instance:ContactsTest.TestContact2@7cd62f43]" name="testStart" duration-ms="12282" started-at="2020-01-27T19:32:18Z" finished-at="2020-01-27T19:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:ContactsTest.TestContact2@7cd62f43]" name="configAM" is-config="true" duration-ms="1458" started-at="2020-01-27T19:32:30Z" finished-at="2020-01-27T19:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:ContactsTest.TestContact2@7cd62f43]" name="configAC" is-config="true" duration-ms="73" started-at="2020-01-27T19:32:32Z" finished-at="2020-01-27T19:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- ContactsTest.TestContact2 -->
+    </test> <!-- Test-Runner-1 -->
+  </suite> <!-- CRM -->
+</testng-results>

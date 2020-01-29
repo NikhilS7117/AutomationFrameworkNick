@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWork_Nick by groups]">
+  <test name="GRP-smokeTest(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="OrganizationTest.TestOrganization1">
+        <methods>
+          <include name="OrganizationTest1"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- OrganizationTest.TestOrganization1 -->
+      <class name="CampaignTest.TestCampaign1">
+        <methods>
+          <include name="CampaignTest1"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CampaignTest.TestCampaign1 -->
+      <class name="ContactsTest.TestContact1">
+        <methods>
+          <include name="testStart"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- ContactsTest.TestContact1 -->
+    </classes>
+  </test> <!-- GRP-smokeTest(failed) -->
+</suite> <!-- Failed suite [FrameWork_Nick by groups] -->
